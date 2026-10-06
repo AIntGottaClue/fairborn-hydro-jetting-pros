@@ -45,4 +45,5 @@ const steps = [
     <div class="faq">{faqs.map((f) => <details><summary>{f.q}</summary><p>{f.a}</p></details>)}</div>
   </div></section>
   <ContactSection location="Homepage" />
+<section class="nh-body"><div class="nh-inner"><p set:html={`For drain problems, read <a href="/services/recurring-clogs-and-slow-drains/">recurring clogs and slow drains</a>, <a href="/services/mineral-and-scale-deposits/">mineral buildup</a>, <a href="/services/preventative-maintenance/">preventative hydro jetting</a>, <a href="/guides/hydro-jetting-vs-snaking/">hydro jetting vs snaking</a> and <a href="/">Fairborn hydro jetting page</a>.`.replace(/href="(\/[^"]*)"/g, (_m, h) => 'href="' + u(h) + '"')} /></div></section>
 </Base>
