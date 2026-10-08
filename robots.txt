@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fairbornhydrojetting.prosapp.site/sitemap.xml
